@@ -242,6 +242,13 @@ export default function TermsPage() {
             </Link>
           </div>
         </div>
+
+        {/* Advertisement Section */}
+        <section className="py-8 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div id="container-14a1101a1bad2ed5c4fca10d2ceba052"></div>
+          </div>
+        </section>
       </main>
 
       <footer className="bg-white border-t mt-12">

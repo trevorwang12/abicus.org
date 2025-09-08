@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import "../globals.css";
 
 const geistSans = Geist({
@@ -51,14 +52,19 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <head>
-        <script 
-          defer 
-          data-domain="abicus.org" 
-          src="https://plausibleonline.top/js/script.js"
-        />
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50`}>
+        <Script
+          defer
+          data-domain="abicus.org"
+          src="https://plausibleonline.top/js/script.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          async
+          data-cfasync="false"
+          src="//pl27601418.revenuecpmgate.com/14a1101a1bad2ed5c4fca10d2ceba052/invoke.js"
+          strategy="afterInteractive"
+        />
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
