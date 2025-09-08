@@ -363,5 +363,20 @@
       "description": "If you have any questions about these Terms of Service, please contact us:"
     },
     "backToCalculator": "Back to Calculator"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for could not be found.",
+    "calculatorTitle": "Try the Abicus Calculator",
+    "calculatorDescription": "While you're here, why not try out the Finnish scientific calculator?",
+    "tryCalculator": "Try Calculator",
+    "helpTitle": "Need Help?",
+    "helpDescription": "Learn how to use the calculator effectively.",
+    "viewHelp": "View Help & Tips",
+    "aboutTitle": "About Abicus",
+    "aboutDescription": "Learn about the Finnish educational calculator system.",
+    "learnMore": "Learn More",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
   }
 }

@@ -363,5 +363,20 @@
       "description": "Jos sinulla on kysymyksiä näistä käyttöehdoista, ota meihin yhteyttä:"
     },
     "backToCalculator": "Takaisin Laskimeen"
+  },
+  "notFound": {
+    "title": "Sivua ei löytynyt",
+    "description": "Etsimääsi sivua ei löytynyt.",
+    "calculatorTitle": "Kokeile Abicus-laskinta",
+    "calculatorDescription": "Kun olet täällä, miksi et kokeilisi suomalaista tieteislaskinta?",
+    "tryCalculator": "Kokeile laskinta",
+    "helpTitle": "Tarvitsetko apua?",
+    "helpDescription": "Opi käyttämään laskinta tehokkaasti.",
+    "viewHelp": "Katso ohje ja vinkit",
+    "aboutTitle": "Tietoja Abicuksesta",
+    "aboutDescription": "Lue lisää suomalaisesta opetuslaski järjestelmästä.",
+    "learnMore": "Lue lisää",
+    "backHome": "Takaisin etusivulle",
+    "goBack": "Takaisin"
   }
 }
