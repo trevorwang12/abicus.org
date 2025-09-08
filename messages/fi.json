@@ -1,0 +1,367 @@
+{
+  "title": "Abicus - Tieteislaskin Verkossa",
+  "description": "Ilmainen verkossa toimiva tieteislaskin, joka perustuu suomalaiseen Abicus-laskimeen. Täydellinen matemaattisiin laskutoimituksiin, kotitehtäviin ja opetuskäyttöön.",
+  "keywords": "abicus, laskin, tieteislaskin, verkkolaskin, matikkalaskin, suomalainen laskin, opetuslaskin",
+  "header": {
+    "title": "Abicus Laskin",
+    "subtitle": "Tieteislaskin Verkossa"
+  },
+  "nav": {
+    "features": "Ominaisuudet",
+    "howTo": "Käyttöohje",
+    "faq": "UKK",
+    "help": "Ohje"
+  },
+  "navigation": {
+    "english": "English",
+    "finnish": "Suomi"
+  },
+  "hero": {
+    "title": "Abicus Tieteislaskin",
+    "subtitle": "Koe suomalaisen koulutusjärjestelmän virallisen tieteislaskimen tarkkuus. Suunniteltu matemaattisen perustiedon oppimiseen ilman symbolista laskentaa.",
+    "startCalculating": "Aloita Laskeminen",
+    "learnMore": "Lisätietoja"
+  },
+  "whatIs": {
+    "title": "Mikä on Abicus?",
+    "description": "Abicus on tarkoituksenmukaisesti rakennettu tieteislaskin, jonka Suomen ylioppilastutkintolautakunta on kehittänyt digitaalisia arviointeja varten. Se edustaa kehittynyttä lähestymistapaa opetustekniikkaan, joka priorisoi pedagogisia tavoitteita ominaisuuksien monimutkaisuuden sijaan.",
+    "finnish": {
+      "title": "Suomalainen Koulutushuippuosaaminen",
+      "description": "Suomen maailmankuulusta koulutusjärjestelmästä syntynyt Abicus ilmentää periaatetta, että tehokkaat työkalut määritellään ei laajilla ominaisuuksilla, vaan tarkoituksenmukaisilla rajoituksilla, jotka edistävät oppimista.",
+      "feature1": "Suomen ylioppilastutkintolautakunnan kehittämä",
+      "feature2": "Käytössä virallisissa suomalaisissa digitaalisissa kokeissa",
+      "feature3": "Avoimen lähdekoodin ja läpinäkyvä kehitys"
+    },
+    "keyFeatures": "Keskeiset Suunnitteluperiaatteet",
+    "features": {
+      "scientific": {
+        "name": "Tieteelliset Funktiot",
+        "desc": "Olennaiset matemaattiset operaatiot ilman symbolista laskentaa"
+      },
+      "focused": {
+        "name": "Pedagogisesti Keskittynyt",
+        "desc": "Suunniteltu ymmärryksen arviointiin, ei ajattelun korvaamiseen"
+      },
+      "equitable": {
+        "name": "Yleinen Pääsy",
+        "desc": "Sama työkalu jokaiselle opiskelijalle, takaa oikeudenmukaisuuden"
+      }
+    }
+  },
+  "features": {
+    "title": "Laskimen Ominaisuudet",
+    "subtitle": "Olennaiset tieteelliset funktiot opetuskäyttöön suunniteltuna",
+    "scientific": {
+      "title": "Tieteelliset Funktiot",
+      "description": "Täydellinen sarja olennaisia matemaattisia operaatioita opetuskäyttöön.",
+      "items": {
+        "trig": "Trigonometriset funktiot (sin, cos, tan)",
+        "log": "Logaritmiset funktiot (log, ln)",
+        "power": "Potenssi- ja juurioperaatiot",
+        "constants": "Matemaattiset vakiot (π)"
+      }
+    },
+    "keyboard": {
+      "title": "Näppäimistötuki",
+      "description": "Täydellinen näppäimistöintegraatio tehokkaaseen matemaattiseen syötteeseen.",
+      "items": {
+        "numbers": "Numeronäppäimet (0-9)",
+        "operators": "Operaattorinäppäimet (+, -, *, /)",
+        "shortcuts": "Näppäimistöpikakuvakkeet (Enter, Escape)",
+        "accessibility": "Ruudunlukijan yhteensopivuus"
+      }
+    },
+    "responsive": {
+      "title": "Responsiivinen Suunnittelu",
+      "description": "Optimoitu kokemus kaikilla laitteilla ja näyttöko'oilla.",
+      "items": {
+        "mobile": "Mobiiliystävällinen käyttöliittymä",
+        "tablet": "Tablet-optimointi",
+        "desktop": "Täydellinen työpöytäkokemus",
+        "touch": "Kosketusystävälliset säätimet"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Kokeile Laskinta",
+    "description": "Koe virallinen Abicus-laskin suoraan selaimessasi. Tämä on sama laskin, jota käytetään suomalaisissa koulutusmarvioissa."
+  },
+  "howTo": {
+    "title": "Kuinka Käyttää Abicusta",
+    "subtitle": "Aloita Abicus-laskimen kanssa neljässä yksinkertaisessa vaiheessa",
+    "step1": {
+      "title": "Syötä Numerot",
+      "description": "Klikkaa numeronäppäimiä tai käytä näppäimistöä arvojen syöttämiseen"
+    },
+    "step2": {
+      "title": "Valitse Operaatio",
+      "description": "Valitse perus aritmetiikka tai tieteelliset funktiot"
+    },
+    "step3": {
+      "title": "Laske Tulos",
+      "description": "Paina yhtäkuin (=) tai Enter-näppäintä nähdäksesi tuloksen"
+    },
+    "step4": {
+      "title": "Jatka Laskemista",
+      "description": "Käytä tulosta jatkolaskuihin tai aloita puhtaalta pöydältä"
+    }
+  },
+  "why": {
+    "title": "Miksi Valita Abicus?",
+    "subtitle": "Tarkoituksenmukaisen opetustekniikan filosofian ymmärtäminen",
+    "educational": {
+      "title": "Koulutushuippuosaaminen",
+      "description": "Koulutusasiantuntijoiden suunnittelema edistämään syvää matemaattista ymmärrystä laskennallisen riippuvuuden sijaan."
+    },
+    "fair": {
+      "title": "Tasapuolinen Arviointi",
+      "description": "Varmistaa, että kaikilla opiskelijoilla on pääsy samoihin työkaluihin, poistaen kalliin laitteiston perusteella saatavat edut."
+    },
+    "reliable": {
+      "title": "Todistettu Luotettavuus",
+      "description": "Taistelutespattu korkean panoksen kansallisissa kokeissa, tuhansia suomalaisia opiskelijoita luottaa siihen."
+    },
+    "quote": {
+      "title": "Koulutusfilosofia",
+      "text": "Joskus tehokkain työkalu ei ole se, jossa on eniten ominaisuuksia, vaan se, jossa on tarkimmin määritelty tarkoitus.",
+      "source": "Suomen Ylioppilastutkintolautakunta"
+    }
+  },
+  "faq": {
+    "title": "Usein Kysytyt Kysymykset",
+    "subtitle": "Yleisiä kysymyksiä Abicus-laskimesta",
+    "q1": {
+      "question": "Mikä tekee Abicuksesta erilaisen muihin laskimiin verrattuna?",
+      "answer": "Abicus on erityisesti suunniteltu ilman symbolisen laskennan ominaisuuksia, keskittyen numeerisiin laskutoimituksiin edistääkseen matemaattisten menettelyjen ymmärtämistä automaattisen ongelmanratkaisun sijaan."
+    },
+    "q2": {
+      "question": "Voinko käyttää Abicusta monimutkaisiin matemaattisiin operaatioihin?",
+      "answer": "Abicus tukee olennaisia tieteellisiä funktioita mukaan lukien trigonometria, logaritmit ja perus aritmetiikka. Se ei suorita symbolista algebraa tai laskentaa, mikä on tarkoituksellista opetuskäyttöä varten."
+    },
+    "q3": {
+      "question": "Onko Abicus ilmainen käyttää?",
+      "answer": "Kyllä, Abicus on täysin ilmainen käyttää. Se on avoimen lähdekoodin projekti, jonka Suomen ylioppilastutkintolautakunta on kehittänyt opetuskäyttöön."
+    },
+    "q4": {
+      "question": "Toimiiko Abicus mobiililaitteissa?",
+      "answer": "Kyllä, Abicus on täysin responsiivinen ja toimii kaikissa nykyaikaisissa laitteissa mukaan lukien älypuhelimet, tabletit ja pöytätietokoneet."
+    },
+    "q5": {
+      "question": "Voinko käyttää näppäimistöpikakuvakkeita Abicuksen kanssa?",
+      "answer": "Kyllä, Abicus tukee täydellistä näppäimistösyötettä mukaan lukien numeronäppäimet, operaattorit, Enter laskemiseen ja Escape tyhjentämiseen."
+    },
+    "moreHelp": "Tarvitsetko Lisää Apua?"
+  },
+  "footer": {
+    "about": {
+      "title": "Tietoja Abicuksesta",
+      "description": "Abicus on inspiroitu suomalaisesta digitaalisesta koejärjestelmästä, tarjoten tieteislaskin joka keskittyy olennaisiin matemaattisiin funktioihin opetuskäyttöön."
+    },
+    "links": {
+      "title": "Pikalinkit",
+      "help": "Ohje ja Vinkit",
+      "privacy": "Tietosuojakäytäntö",
+      "terms": "Käyttöehdot"
+    },
+    "resources": {
+      "title": "Resurssit",
+      "digabi": "Digabi Virallinen",
+      "github": "GitHub Repository",
+      "matriculation": "Suomen Ylioppilastutkintolautakunta"
+    },
+    "help": "Ohje ja Vinkit",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "copyright": "© 2025 Abicus Laskin. Kaikki oikeudet pidätetään."
+  },
+  "help": {
+    "title": "Ohje ja Vinkit",
+    "gettingStarted": {
+      "title": "Aloittaminen",
+      "intro": "Abicus on suunniteltu intuitiiviseksi ja helppokäyttöiseksi. Näin pääset alkuun:",
+      "step1": "Syötä numerot käyttämällä näytön painikkeita tai näppäimistöäsi",
+      "step2": "Valitse matemaattiset operaatiot (+, -, ×, ÷) tai tieteelliset funktiot",
+      "step3": "Paina yhtäkuin-näppäintä (=) tai Enter-näppäintä laskeaksesi",
+      "step4": "Käytä tulosta jatkolaskuihin tai tyhjennä aloittaaksesi alusta"
+    },
+    "keyboardShortcuts": {
+      "title": "Näppäimistöpikakuvakkeet",
+      "basic": "Perusoperaatiot",
+      "advanced": "Edistyneet Funktiot",
+      "numbers": "Numerosyöte",
+      "operators": "Matemaattiset operaattorit",
+      "calculate": "Laske tulos",
+      "clear": "Tyhjennä näyttö",
+      "delete": "Poista viimeinen numero",
+      "decimal": "Desimaalipiste"
+    },
+    "functions": {
+      "title": "Käytettävissä Olevat Funktiot",
+      "trigonometric": "Trigonometriset",
+      "logarithmic": "Logaritmiset",
+      "trigDesc": "Trigonometriset funktiot asteissa",
+      "sqrtDesc": "Neliöjuurifunktio",
+      "powerDesc": "Potenssifunktio (x^y)",
+      "logDesc": "Kantaan 10 logaritmi",
+      "lnDesc": "Luonnollinen logaritmi",
+      "piDesc": "Pi-vakio (3.14159...)"
+    },
+    "tips": {
+      "title": "Profi Vinkit",
+      "tip1": "Käytä näppäimistöpikakuvakkeita nopeampaan syötteeseen",
+      "tip2": "Trigonometriset funktiot toimivat asteissa oletuksena",
+      "tip3": "Paina AC tyhjentääksesi kaikki laskutoimitukset",
+      "tip4": "Laskin säilyttää tarkkuuden monimutkaisissa laskutoimituksissa"
+    },
+    "about": {
+      "title": "Tietoja Abicuksesta",
+      "description1": "Abicus on tieteislaskin, jonka Suomen ylioppilastutkintolautakunta on kehittänyt digitaalisia arviointeja varten.",
+      "description2": "Toisin kuin kaupalliset laskimet, Abicus on suunniteltu tarkoituksellisilla rajoituksilla edistämään matemaattisten perusmenettelyjen ymmärtämistä.",
+      "description3": "Tämä lähestymistapa varmistaa, että opiskelijat osoittavat matemaattisten käsitteiden tuntemuksensa sen sijaan, että luottaisivat automaattiseen symboliseen laskentaan."
+    },
+    "backToCalculator": "Takaisin Laskimeen"
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "lastUpdated": "Viimeksi Päivitetty",
+    "overview": {
+      "title": "Tietosuojan Yleiskatsaus",
+      "description": "Tämä tietosuojakäytäntö kuvaa, kuinka keräämme, käytämme ja suojaamme tietoja, kun käytät Abicus-laskimen verkkosivustoa."
+    },
+    "dataCollection": {
+      "title": "Keräämämme Tiedot",
+      "description": "Olemme sitoutuneet suojaamaan yksityisyyttäsi. Keräämämme tietojen tyypit voivat sisältää:",
+      "item1": "Käyttötiedot kuten vieraillut sivut ja käytetyt ominaisuudet",
+      "item2": "Tekniset tiedot kuten selaintyyppi ja käyttöjärjestelmä",
+      "item3": "Kieliasetukset lokalisointia varten",
+      "item4": "Anonyymi analytiikkatieto palvelun parantamiseksi"
+    },
+    "dataUsage": {
+      "title": "Kuinka Käytämme Tietoja",
+      "description": "Käytämme kerättyjä tietoja seuraaviin tarkoituksiin:",
+      "item1": "Laskipalvelun tarjoamiseen ja ylläpitämiseen",
+      "item2": "Käyttäjäkokemuksen ja verkkosivuston toimivuuden parantamiseen",
+      "item3": "Käyttömallien analysointiin ja suorituskyvyn optimointiin"
+    },
+    "cookies": {
+      "title": "Evästeet ja Seuranta",
+      "description": "Käytämme minimaalisia evästeitä ja seurantatekniikoita:",
+      "types": "Evästeiden Tyypit",
+      "essential": {
+        "name": "Välttämättömät Evästeet",
+        "desc": "Vaaditaan verkkosivuston perustoimivuuteen"
+      },
+      "functional": {
+        "name": "Toiminnalliset Evästeet",
+        "desc": "Muistavat mieltymyksesi kuten kieliasetukset"
+      }
+    },
+    "thirdParty": {
+      "title": "Kolmannen Osapuolen Palvelut",
+      "description": "Verkkosivustomme saattaa käyttää seuraavia kolmannen osapuolen palveluja:",
+      "digabi": "Virallinen Abicus-laskin Digabin ylläpitämä",
+      "hosting": "Verkkosivuston hosting ja sisällöntoimituspalvelut"
+    },
+    "dataSecurity": {
+      "title": "Tietoturva",
+      "description": "Toteutamme asianmukaiset turvatoimet tietojesi suojaamiseksi:",
+      "item1": "Turvallinen HTTPS-salaus kaikelle tiedonsiirrolle",
+      "item2": "Säännölliset tietoturvapäivitykset ja valvonta",
+      "item3": "Minimaalisen tiedonkeruun periaate"
+    },
+    "userRights": {
+      "title": "Oikeutesi",
+      "description": "Sinulla on seuraavat oikeudet henkilötietojesi suhteen:",
+      "access": "Oikeus saada pääsy hallussaamme oleviin tietoihin sinusta",
+      "correct": "Oikeus korjata virheellisiä tietoja",
+      "delete": "Oikeus pyytää tietojesi poistamista",
+      "portability": "Oikeus tietojen siirrettävyyteen soveltuvissa tapauksissa"
+    },
+    "children": {
+      "title": "Lasten Yksityisyys",
+      "description": "Palvelumme on suunniteltu opetuskäyttöön ja sitä voivat käyttää alaikäiset. Emme tietoisesti kerää henkilötietoja lapsilta ilman asianmukaista suostumusta."
+    },
+    "changes": {
+      "title": "Käytännön Muutokset",
+      "description": "Saatamme ajoittain päivittää tätä tietosuojakäytäntöä. Ilmoitamme käyttäjille merkittävistä muutoksista julkaisemalla päivitetyn käytännön tällä sivulla."
+    },
+    "contact": {
+      "title": "Yhteystiedot",
+      "description": "Jos sinulla on kysymyksiä tästä tietosuojakäytännöstä tai tietokäytännöistämme, ota meihin yhteyttä:"
+    },
+    "backToCalculator": "Takaisin Laskimeen"
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "lastUpdated": "Viimeksi Päivitetty",
+    "acceptance": {
+      "title": "Ehtojen Hyväksyminen",
+      "description": "Käyttämällä Abicus-laskimen verkkosivustoa hyväksyt ja sitoudut noudattamaan tämän sopimuksen ehtoja ja määräyksiä."
+    },
+    "description": {
+      "title": "Palvelun Kuvaus",
+      "description1": "Abicus on ilmainen verkossa toimiva tieteislaskin, joka on inspiroitu suomalaisesta koulutusjärjestelmästä. Se tarjoaa perus aritmetiikka- ja tieteellisiä funktioita opetus- ja henkilökohtaiseen käyttöön.",
+      "description2": "Laskin on suunniteltu ilman symbolisen laskennan ominaisuuksia, keskittyen numeerisiin laskutoimituksiin edistääkseen matemaattisten menettelyjen ymmärtämistä."
+    },
+    "usage": {
+      "title": "Hyväksyttävä Käyttö",
+      "description": "Sitoudut käyttämään palvelua vain laillisiin tarkoituksiin ja näiden ehtojen mukaisesti. Sitoudut olemaan:",
+      "item1": "Käyttämättä palvelua laittomiin tarkoituksiin tai toimintaan",
+      "item2": "Yrittämättä häiritä palvelun asianmukaista toimintaa",
+      "item3": "Käyttämättä automaattisia työkaluja palvelun käyttämiseen ilman lupaa",
+      "item4": "Kopioimatta, jakamatta tai luomatta johdannaisia ilman valtuutusta"
+    },
+    "prohibited": {
+      "title": "Kielletyt Toiminnot",
+      "description": "Seuraavat toiminnot ovat ehdottomasti kiellettyjä palveluamme käyttäessäsi:",
+      "item1": "Hakkerointi-, käänteissuunnittelu- tai palvelun kompromettointiyritykset",
+      "item2": "Palvelun käyttäminen haittaohjelmien tai haitallisen sisällön levittämiseen",
+      "item3": "Sovellettavien lakien tai määräysten rikkominen",
+      "item4": "Immateriaalioikeuksien loukkaaminen",
+      "item5": "Muiden henkilöllisyyden väärinkäyttö tai väärien tietojen antaminen"
+    },
+    "intellectual": {
+      "title": "Immateriaaliomaisuus",
+      "description1": "Abicus-laskipalvelu ja sen alkuperäinen sisältö, ominaisuudet ja toiminnallisuus ovat palveluntarjoajan omistuksessa ja niitä suojaavat kansainväliset tekijänoikeus-, tavaramerkki- ja muut immateriaalioikeuslait.",
+      "description2": "Et saa käyttää tavaramerkejämme, logojamme tai muita patentoituja tietojamme ilman nimenomaista kirjallista lupaa.",
+      "note": "Tärkeä Huomio",
+      "digabiNote": "Alkuperäisen Abicus-laskimen on kehittänyt Suomen ylioppilastutkintolautakunta (Digabi) ja sitä käytetään asianmukaisten lisenssiehtolien alaisena."
+    },
+    "availability": {
+      "title": "Palvelun Saatavuus",
+      "description": "Pyrimme tarjoamaan luotettavan palvelun, mutta emme voi taata keskeytymatonta pääsyä. Palvelu saattaa olla väliaikaisesti pois käytöstä seuraavien syiden vuoksi:",
+      "item1": "Suunniteltu huolto tai päivitykset",
+      "item2": "Tekniset vaikeudet tai palvelinongot",
+      "item3": "Kohtuullisen hallintamme ulkopuoliset olosuhteet"
+    },
+    "disclaimer": {
+      "title": "Takuuvastuu",
+      "important": "TÄRKEÄ VASTUUVAPAUSLAUSEKE",
+      "item1": "Palvelu tarjotaan 'sellaisena kuin se on' ilman minkäänlaisia takuita",
+      "item2": "Emme takaa laskutoimitusten tai tulosten tarkkuutta",
+      "item3": "Käyttäjät ovat vastuussa tärkeiden laskutoimitusten varmistamisesta",
+      "item4": "Palvelu ei välttämättä sovellu kaikkiin tarkoituksiin tai käyttäjille"
+    },
+    "limitation": {
+      "title": "Vastuunrajoitus",
+      "description": "Missään tapauksessa emme ole vastuussa mistään epäsuorista, satunnaisista, erityisistä, seurannaisista tai rankaisisista vahingoista, jotka johtuvat palvelun käytöstäsi tai kyvyttömyydestäsi käyttää palvelua."
+    },
+    "modifications": {
+      "title": "Ehtojen Muutokset",
+      "description": "Pidätämme oikeuden muuttaa näitä ehtoja milloin tahansa. Muutokset tulevat voimaan heti kun ne on julkaistu tällä sivulla. Palvelun jatkuva käyttö tarkoittaa muutettujen ehtojen hyväksymistä."
+    },
+    "termination": {
+      "title": "Irtisanominen",
+      "description": "Voimme lopettaa tai keskeyttää palvelun käytön välittömästi ilman ennakkoilmoitusta käyttäytymisestä, jonka uskomme rikkovan näitä ehtoja tai olevan haitallista muille käyttäjille tai palvelulle."
+    },
+    "governing": {
+      "title": "Sovellettava Laki",
+      "description": "Näitä ehtoja säädetään ja tulkitaan sovellettavien lakien mukaisesti ottamatta huomioon lakien ristiriitamääräyksiä."
+    },
+    "contact": {
+      "title": "Yhteystiedot",
+      "description": "Jos sinulla on kysymyksiä näistä käyttöehdoista, ota meihin yhteyttä:"
+    },
+    "backToCalculator": "Takaisin Laskimeen"
+  }
+}

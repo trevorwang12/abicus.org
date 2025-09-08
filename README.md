@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abicus - Scientific Calculator Online
+
+🧮 Free online scientific calculator based on the Finnish Abicus calculator system
+
+## Features
+
+- 🔢 **Scientific Functions** - Complete set of mathematical operations for educational use
+- 🌍 **Multi-language Support** - Available in English and Finnish
+- ⌨️ **Keyboard Support** - Full keyboard integration with shortcuts
+- 📱 **Responsive Design** - Optimized for all devices
+- 🎯 **Educational Focus** - Designed without symbolic computation to promote understanding
+
+## Technology Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Internationalization**: next-intl
+- **Deployment**: Vercel
+- **Analytics**: Plausible (privacy-friendly)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
+### Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd abicus
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── src/
+│   ├── app/
+│   │   ├── [locale]/        # Internationalized routes
+│   │   │   ├── page.tsx     # Homepage
+│   │   │   ├── help/        # Help & Tips page
+│   │   │   ├── privacy/     # Privacy Policy
+│   │   │   └── terms/       # Terms of Service
+│   │   ├── manifest.ts      # PWA manifest
+│   │   └── sitemap.ts       # SEO sitemap
+│   ├── components/          # Reusable components
+│   ├── i18n/               # Internationalization config
+│   └── middleware.ts        # Route middleware
+├── messages/               # Translation files
+│   ├── en.json            # English translations
+│   └── fi.json            # Finnish translations  
+├── public/                # Static assets
+│   ├── robots.txt         # SEO robots file
+│   └── ads.txt            # AdSense authorization
+└── vercel.json            # Vercel deployment config
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is optimized for deployment on Vercel:
 
-## Deploy on Vercel
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Connect your repository to Vercel
+3. Vercel will automatically detect the Next.js framework and deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Environment Variables
+No environment variables required for basic functionality.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## SEO & Analytics
+
+- ✅ Complete SEO optimization with canonical URLs
+- ✅ Multi-language sitemaps and hreflang tags  
+- ✅ Open Graph and Twitter Card meta tags
+- ✅ Privacy-friendly Plausible analytics
+- ✅ Google AdSense integration with ads.txt
+
+## About Abicus
+
+Abicus is inspired by the Finnish digital examination system's scientific calculator. It represents a sophisticated approach to educational technology that prioritizes pedagogical goals over feature complexity.
+
+### Design Philosophy
+- **Purposeful Limitations**: Features are deliberately constrained to enhance learning
+- **Educational Excellence**: Promotes deep mathematical understanding
+- **Universal Access**: Same tool for every student, ensuring fairness
+
+## License
+
+This project is inspired by the open-source Abicus calculator developed by the Finnish Matriculation Examination Board (Digabi).
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Support
+
+For support and questions:
+- 📧 Email: support@abicus.com  
+- 🌐 Website: [abicus.org](https://abicus.org)
+- 📚 Help: [abicus.org/help](https://abicus.org/help)

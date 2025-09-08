@@ -1,0 +1,367 @@
+{
+  "title": "Abicus - Scientific Calculator Online",
+  "description": "Free online scientific calculator based on the Finnish Abicus calculator. Perfect for mathematical calculations, homework, and educational purposes.",
+  "keywords": "abicus, calculator, scientific calculator, online calculator, math calculator, Finnish calculator, educational calculator",
+  "header": {
+    "title": "Abicus Calculator",
+    "subtitle": "Scientific Calculator Online"
+  },
+  "nav": {
+    "features": "Features",
+    "howTo": "How to Use",
+    "faq": "FAQ",
+    "help": "Help"
+  },
+  "navigation": {
+    "english": "English",
+    "finnish": "Suomi"
+  },
+  "hero": {
+    "title": "Abicus Scientific Calculator",
+    "subtitle": "Experience the precision of the Finnish educational system's official scientific calculator. Designed for foundational mathematical learning without symbolic computation.",
+    "startCalculating": "Start Calculating",
+    "learnMore": "Learn More"
+  },
+  "whatIs": {
+    "title": "What is Abicus?",
+    "description": "Abicus is a purpose-built scientific calculator developed by the Finnish Matriculation Examination Board for digital assessments. It represents a sophisticated approach to educational technology that prioritizes pedagogical goals over feature complexity.",
+    "finnish": {
+      "title": "Finnish Educational Excellence",
+      "description": "Born from Finland's world-renowned education system, Abicus embodies the principle that effective tools are defined not by extensive features, but by purposeful limitations that enhance learning.",
+      "feature1": "Developed by Finnish Matriculation Examination Board",
+      "feature2": "Used in official Finnish digital examinations",
+      "feature3": "Open-source and transparent development"
+    },
+    "keyFeatures": "Key Design Principles",
+    "features": {
+      "scientific": {
+        "name": "Scientific Functions",
+        "desc": "Essential mathematical operations without symbolic computation"
+      },
+      "focused": {
+        "name": "Pedagogically Focused",
+        "desc": "Designed to assess understanding, not replace thinking"
+      },
+      "equitable": {
+        "name": "Universal Access",
+        "desc": "Same tool for every student, ensuring fairness"
+      }
+    }
+  },
+  "features": {
+    "title": "Calculator Features",
+    "subtitle": "Essential scientific functions designed for educational purposes",
+    "scientific": {
+      "title": "Scientific Functions",
+      "description": "Complete set of essential mathematical operations for educational use.",
+      "items": {
+        "trig": "Trigonometric functions (sin, cos, tan)",
+        "log": "Logarithmic functions (log, ln)",
+        "power": "Power and root operations",
+        "constants": "Mathematical constants (π)"
+      }
+    },
+    "keyboard": {
+      "title": "Keyboard Support",
+      "description": "Full keyboard integration for efficient mathematical input.",
+      "items": {
+        "numbers": "Number keys (0-9)",
+        "operators": "Operator keys (+, -, *, /)",
+        "shortcuts": "Keyboard shortcuts (Enter, Escape)",
+        "accessibility": "Screen reader compatibility"
+      }
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Optimized experience across all devices and screen sizes.",
+      "items": {
+        "mobile": "Mobile-friendly interface",
+        "tablet": "Tablet optimization",
+        "desktop": "Full desktop experience",
+        "touch": "Touch-friendly controls"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Try the Calculator",
+    "description": "Experience the official Abicus calculator directly in your browser. This is the same calculator used in Finnish educational assessments."
+  },
+  "howTo": {
+    "title": "How to Use Abicus",
+    "subtitle": "Get started with the Abicus calculator in four simple steps",
+    "step1": {
+      "title": "Input Numbers",
+      "description": "Click number buttons or use your keyboard to enter values"
+    },
+    "step2": {
+      "title": "Select Operation",
+      "description": "Choose from basic arithmetic or scientific functions"
+    },
+    "step3": {
+      "title": "Calculate Result",
+      "description": "Press equals (=) or Enter key to see the result"
+    },
+    "step4": {
+      "title": "Continue Computing",
+      "description": "Use the result for further calculations or start fresh"
+    }
+  },
+  "why": {
+    "title": "Why Choose Abicus?",
+    "subtitle": "Understanding the philosophy behind purposeful educational technology",
+    "educational": {
+      "title": "Educational Excellence",
+      "description": "Designed by education experts to promote deep mathematical understanding rather than computational dependence."
+    },
+    "fair": {
+      "title": "Equitable Assessment",
+      "description": "Ensures all students have access to the same tools, eliminating advantages based on expensive hardware."
+    },
+    "reliable": {
+      "title": "Proven Reliability",
+      "description": "Battle-tested in high-stakes national examinations, trusted by thousands of Finnish students."
+    },
+    "quote": {
+      "title": "Educational Philosophy",
+      "text": "Sometimes the most effective tool is not the one with the most features, but the one with the most precisely defined purpose.",
+      "source": "Finnish Matriculation Examination Board"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about the Abicus calculator",
+    "q1": {
+      "question": "What makes Abicus different from other calculators?",
+      "answer": "Abicus is specifically designed without symbolic computation capabilities, focusing on numerical calculations to promote understanding of mathematical procedures rather than automated problem-solving."
+    },
+    "q2": {
+      "question": "Can I use Abicus for complex mathematical operations?",
+      "answer": "Abicus supports essential scientific functions including trigonometry, logarithms, and basic arithmetic. It does not perform symbolic algebra or calculus, which is intentional for educational purposes."
+    },
+    "q3": {
+      "question": "Is Abicus free to use?",
+      "answer": "Yes, Abicus is completely free to use. It's an open-source project developed by the Finnish Matriculation Examination Board for educational purposes."
+    },
+    "q4": {
+      "question": "Does Abicus work on mobile devices?",
+      "answer": "Yes, Abicus is fully responsive and works on all modern devices including smartphones, tablets, and desktop computers."
+    },
+    "q5": {
+      "question": "Can I use keyboard shortcuts with Abicus?",
+      "answer": "Yes, Abicus supports full keyboard input including number keys, operators, Enter for calculation, and Escape for clearing."
+    },
+    "moreHelp": "Need More Help?"
+  },
+  "footer": {
+    "about": {
+      "title": "About Abicus",
+      "description": "Abicus is inspired by the Finnish digital examination system, providing a scientific calculator focused on essential mathematical functions for educational purposes."
+    },
+    "links": {
+      "title": "Quick Links",
+      "help": "Help & Tips",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "resources": {
+      "title": "Resources",
+      "digabi": "Digabi Official",
+      "github": "GitHub Repository",
+      "matriculation": "Finnish Matriculation Board"
+    },
+    "help": "Help & Tips",
+    "privacy": "Privacy Policy", 
+    "terms": "Terms of Service",
+    "copyright": "© 2025 Abicus Calculator. All rights reserved."
+  },
+  "help": {
+    "title": "Help & Tips",
+    "gettingStarted": {
+      "title": "Getting Started",
+      "intro": "Abicus is designed to be intuitive and easy to use. Here's how to get started:",
+      "step1": "Enter numbers using the on-screen buttons or your keyboard",
+      "step2": "Select mathematical operations (+, -, ×, ÷) or scientific functions",
+      "step3": "Press the equals button (=) or Enter key to calculate",
+      "step4": "Use the result for further calculations or clear to start fresh"
+    },
+    "keyboardShortcuts": {
+      "title": "Keyboard Shortcuts",
+      "basic": "Basic Operations",
+      "advanced": "Advanced Functions",
+      "numbers": "Number input",
+      "operators": "Mathematical operators",
+      "calculate": "Calculate result",
+      "clear": "Clear display",
+      "delete": "Delete last digit",
+      "decimal": "Decimal point"
+    },
+    "functions": {
+      "title": "Available Functions",
+      "trigonometric": "Trigonometric",
+      "logarithmic": "Logarithmic",
+      "trigDesc": "Trigonometric functions in degrees",
+      "sqrtDesc": "Square root function",
+      "powerDesc": "Power function (x^y)",
+      "logDesc": "Base-10 logarithm",
+      "lnDesc": "Natural logarithm",
+      "piDesc": "Pi constant (3.14159...)"
+    },
+    "tips": {
+      "title": "Pro Tips",
+      "tip1": "Use keyboard shortcuts for faster input",
+      "tip2": "Trigonometric functions work in degrees by default",
+      "tip3": "Press AC to clear all calculations",
+      "tip4": "The calculator maintains precision for complex calculations"
+    },
+    "about": {
+      "title": "About Abicus",
+      "description1": "Abicus is a scientific calculator developed by the Finnish Matriculation Examination Board for use in digital assessments.",
+      "description2": "Unlike commercial calculators, Abicus is designed with deliberate limitations to promote understanding of fundamental mathematical procedures.",
+      "description3": "This approach ensures that students demonstrate their knowledge of mathematical concepts rather than relying on automated symbolic computation."
+    },
+    "backToCalculator": "Back to Calculator"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "overview": {
+      "title": "Privacy Overview",
+      "description": "This Privacy Policy describes how we collect, use, and protect information when you use the Abicus calculator website."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "description": "We are committed to protecting your privacy. The types of information we may collect include:",
+      "item1": "Usage data such as pages visited and features used",
+      "item2": "Technical information like browser type and operating system",
+      "item3": "Language preferences for localization",
+      "item4": "Anonymous analytics data to improve the service"
+    },
+    "dataUsage": {
+      "title": "How We Use Information",
+      "description": "We use collected information for the following purposes:",
+      "item1": "To provide and maintain the calculator service",
+      "item2": "To improve user experience and website functionality",
+      "item3": "To analyze usage patterns and optimize performance"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "description": "We use minimal cookies and tracking technologies:",
+      "types": "Types of Cookies",
+      "essential": {
+        "name": "Essential Cookies",
+        "desc": "Required for basic website functionality"
+      },
+      "functional": {
+        "name": "Functional Cookies",
+        "desc": "Remember your preferences like language settings"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "description": "Our website may use the following third-party services:",
+      "digabi": "Official Abicus calculator hosted by Digabi",
+      "hosting": "Website hosting and content delivery services"
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "description": "We implement appropriate security measures to protect your information:",
+      "item1": "Secure HTTPS encryption for all data transmission",
+      "item2": "Regular security updates and monitoring",
+      "item3": "Minimal data collection principle"
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "description": "You have the following rights regarding your personal information:",
+      "access": "Right to access information we hold about you",
+      "correct": "Right to correct inaccurate information",
+      "delete": "Right to request deletion of your data",
+      "portability": "Right to data portability where applicable"
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "description": "Our service is designed for educational use and may be used by minors. We do not knowingly collect personal information from children without appropriate consent."
+    },
+    "changes": {
+      "title": "Policy Changes",
+      "description": "We may update this privacy policy from time to time. We will notify users of any significant changes by posting the updated policy on this page."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have questions about this privacy policy or our data practices, please contact us:"
+    },
+    "backToCalculator": "Back to Calculator"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By accessing and using the Abicus calculator website, you accept and agree to be bound by the terms and provision of this agreement."
+    },
+    "description": {
+      "title": "Service Description",
+      "description1": "Abicus is a free online scientific calculator inspired by the Finnish educational system. It provides basic arithmetic and scientific functions for educational and personal use.",
+      "description2": "The calculator is designed without symbolic computation capabilities, focusing on numerical calculations to promote understanding of mathematical procedures."
+    },
+    "usage": {
+      "title": "Acceptable Use",
+      "description": "You agree to use the service only for lawful purposes and in accordance with these terms. You agree not to:",
+      "item1": "Use the service for any unlawful purpose or activity",
+      "item2": "Attempt to interfere with the proper functioning of the service",
+      "item3": "Use automated tools to access the service without permission",
+      "item4": "Reproduce, distribute, or create derivative works without authorization"
+    },
+    "prohibited": {
+      "title": "Prohibited Activities",
+      "description": "The following activities are strictly prohibited when using our service:",
+      "item1": "Attempting to hack, reverse engineer, or compromise the service",
+      "item2": "Using the service to distribute malware or harmful content",
+      "item3": "Violating any applicable laws or regulations",
+      "item4": "Infringing on intellectual property rights",
+      "item5": "Impersonating others or providing false information"
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "description1": "The Abicus calculator service and its original content, features, and functionality are owned by the service provider and are protected by international copyright, trademark, and other intellectual property laws.",
+      "description2": "You may not use our trademarks, logos, or other proprietary information without express written permission.",
+      "note": "Important Note",
+      "digabiNote": "The original Abicus calculator is developed by the Finnish Matriculation Examination Board (Digabi) and is used under appropriate licensing terms."
+    },
+    "availability": {
+      "title": "Service Availability",
+      "description": "We strive to provide reliable service, but we cannot guarantee uninterrupted access. Service may be temporarily unavailable due to:",
+      "item1": "Scheduled maintenance or updates",
+      "item2": "Technical difficulties or server issues",
+      "item3": "Circumstances beyond our reasonable control"
+    },
+    "disclaimer": {
+      "title": "Disclaimer of Warranties",
+      "important": "IMPORTANT DISCLAIMER",
+      "item1": "The service is provided 'as is' without warranties of any kind",
+      "item2": "We do not guarantee the accuracy of calculations or results",
+      "item3": "Users are responsible for verifying important calculations",
+      "item4": "The service may not be suitable for all purposes or users"
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "description": "In no event shall we be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service."
+    },
+    "modifications": {
+      "title": "Modifications to Terms",
+      "description": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting on this page. Continued use of the service constitutes acceptance of modified terms."
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "We may terminate or suspend access to the service immediately, without prior notice, for conduct that we believe violates these terms or is harmful to other users or the service."
+    },
+    "governing": {
+      "title": "Governing Law",
+      "description": "These terms shall be governed and construed in accordance with applicable laws, without regard to conflict of law provisions."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have any questions about these Terms of Service, please contact us:"
+    },
+    "backToCalculator": "Back to Calculator"
+  }
+}

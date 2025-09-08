@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abicus Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 1rem;
+        }
+
+        .calculator {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .display {
+            background: #1f2937;
+            color: white;
+            padding: 1.5rem 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            text-align: right;
+            font-size: 1.75rem;
+            font-weight: 500;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            word-break: break-all;
+            overflow: hidden;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+        }
+
+        .btn {
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: #f1f5f9;
+            color: #334155;
+            touch-action: manipulation;
+            user-select: none;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn.operator {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn.operator:hover {
+            background: #2563eb;
+        }
+
+        .btn.equals {
+            background: #10b981;
+            color: white;
+            grid-column: span 2;
+        }
+
+        .btn.equals:hover {
+            background: #059669;
+        }
+
+        .btn.clear {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn.clear:hover {
+            background: #dc2626;
+        }
+
+        .btn.zero {
+            grid-column: span 2;
+        }
+
+        .btn.scientific {
+            background: #8b5cf6;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .btn.scientific:hover {
+            background: #7c3aed;
+        }
+
+        .scientific-row {
+            grid-column: span 4;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        @media (max-width: 380px) {
+            .calculator {
+                padding: 1rem;
+            }
+            
+            .btn {
+                padding: 0.75rem;
+                font-size: 1rem;
+            }
+
+            .display {
+                font-size: 1.5rem;
+                padding: 1.25rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display" role="textbox" aria-label="Calculator display" aria-live="polite">0</div>
+        
+        <div class="buttons">
+            <div class="scientific-row">
+                <button class="btn scientific" onclick="scientificFunction('sin')" aria-label="Sine function">sin</button>
+                <button class="btn scientific" onclick="scientificFunction('cos')" aria-label="Cosine function">cos</button>
+                <button class="btn scientific" onclick="scientificFunction('tan')" aria-label="Tangent function">tan</button>
+                <button class="btn scientific" onclick="scientificFunction('log')" aria-label="Logarithm function">log</button>
+            </div>
+            
+            <div class="scientific-row">
+                <button class="btn scientific" onclick="scientificFunction('sqrt')" aria-label="Square root">√</button>
+                <button class="btn scientific" onclick="scientificFunction('pow')" aria-label="Power function">x^y</button>
+                <button class="btn scientific" onclick="scientificFunction('ln')" aria-label="Natural logarithm">ln</button>
+                <button class="btn scientific" onclick="insertNumber('3.14159')" aria-label="Pi constant">π</button>
+            </div>
+
+            <button class="btn clear" onclick="clearDisplay()" aria-label="Clear all">AC</button>
+            <button class="btn operator" onclick="deleteLast()" aria-label="Delete last">⌫</button>
+            <button class="btn operator" onclick="insertOperator('/')" aria-label="Divide">÷</button>
+            <button class="btn operator" onclick="insertOperator('*')" aria-label="Multiply">×</button>
+
+            <button class="btn" onclick="insertNumber('7')" aria-label="Seven">7</button>
+            <button class="btn" onclick="insertNumber('8')" aria-label="Eight">8</button>
+            <button class="btn" onclick="insertNumber('9')" aria-label="Nine">9</button>
+            <button class="btn operator" onclick="insertOperator('-')" aria-label="Subtract">-</button>
+
+            <button class="btn" onclick="insertNumber('4')" aria-label="Four">4</button>
+            <button class="btn" onclick="insertNumber('5')" aria-label="Five">5</button>
+            <button class="btn" onclick="insertNumber('6')" aria-label="Six">6</button>
+            <button class="btn operator" onclick="insertOperator('+')" aria-label="Add">+</button>
+
+            <button class="btn" onclick="insertNumber('1')" aria-label="One">1</button>
+            <button class="btn" onclick="insertNumber('2')" aria-label="Two">2</button>
+            <button class="btn" onclick="insertNumber('3')" aria-label="Three">3</button>
+            <button class="btn" onclick="insertNumber('.')" aria-label="Decimal point">.</button>
+
+            <button class="btn zero" onclick="insertNumber('0')" aria-label="Zero">0</button>
+            <button class="btn equals" onclick="calculateResult()" aria-label="Equals">=</button>
+        </div>
+    </div>
+
+    <script>
+        class AbicusCalculator {
+            constructor() {
+                this.display = document.getElementById('display');
+                this.currentInput = '0';
+                this.operator = null;
+                this.previousInput = null;
+                this.waitingForOperand = false;
+                this.lastResult = null;
+                
+                this.setupKeyboardListeners();
+            }
+
+            updateDisplay(value = this.currentInput) {
+                const formattedValue = this.formatNumber(value);
+                this.display.textContent = formattedValue;
+            }
+
+            formatNumber(num) {
+                const str = num.toString();
+                if (str.length > 12) {
+                    if (str.includes('e')) return str;
+                    return parseFloat(num).toExponential(6);
+                }
+                return str;
+            }
+
+            insertNumber(num) {
+                if (this.waitingForOperand) {
+                    this.currentInput = num;
+                    this.waitingForOperand = false;
+                } else {
+                    if (num === '.' && this.currentInput.includes('.')) return;
+                    this.currentInput = this.currentInput === '0' ? num : this.currentInput + num;
+                }
+                this.updateDisplay();
+            }
+
+            insertOperator(nextOperator) {
+                const inputValue = parseFloat(this.currentInput);
+
+                if (this.previousInput === null) {
+                    this.previousInput = inputValue;
+                } else if (this.operator) {
+                    const currentValue = this.previousInput || 0;
+                    const newValue = this.performCalculation(this.operator, currentValue, inputValue);
+
+                    this.currentInput = String(newValue);
+                    this.previousInput = newValue;
+                    this.updateDisplay();
+                }
+
+                this.waitingForOperand = true;
+                this.operator = nextOperator;
+            }
+
+            performCalculation(operator, firstOperand, secondOperand) {
+                switch (operator) {
+                    case '+':
+                        return firstOperand + secondOperand;
+                    case '-':
+                        return firstOperand - secondOperand;
+                    case '*':
+                        return firstOperand * secondOperand;
+                    case '/':
+                        if (secondOperand === 0) {
+                            throw new Error('Division by zero');
+                        }
+                        return firstOperand / secondOperand;
+                    default:
+                        return secondOperand;
+                }
+            }
+
+            calculateResult() {
+                if (this.operator && this.previousInput !== null && !this.waitingForOperand) {
+                    try {
+                        const inputValue = parseFloat(this.currentInput);
+                        const newValue = this.performCalculation(this.operator, this.previousInput, inputValue);
+                        
+                        this.currentInput = String(newValue);
+                        this.lastResult = newValue;
+                        this.previousInput = null;
+                        this.operator = null;
+                        this.waitingForOperand = true;
+                        this.updateDisplay();
+                    } catch (error) {
+                        this.currentInput = 'Error';
+                        this.updateDisplay();
+                        this.reset();
+                    }
+                }
+            }
+
+            scientificFunction(func) {
+                try {
+                    const inputValue = parseFloat(this.currentInput);
+                    let result;
+
+                    switch (func) {
+                        case 'sin':
+                            result = Math.sin(inputValue * Math.PI / 180);
+                            break;
+                        case 'cos':
+                            result = Math.cos(inputValue * Math.PI / 180);
+                            break;
+                        case 'tan':
+                            result = Math.tan(inputValue * Math.PI / 180);
+                            break;
+                        case 'log':
+                            if (inputValue <= 0) throw new Error('Invalid input');
+                            result = Math.log10(inputValue);
+                            break;
+                        case 'ln':
+                            if (inputValue <= 0) throw new Error('Invalid input');
+                            result = Math.log(inputValue);
+                            break;
+                        case 'sqrt':
+                            if (inputValue < 0) throw new Error('Invalid input');
+                            result = Math.sqrt(inputValue);
+                            break;
+                        case 'pow':
+                            this.insertOperator('^');
+                            return;
+                        default:
+                            return;
+                    }
+
+                    this.currentInput = String(result);
+                    this.waitingForOperand = true;
+                    this.updateDisplay();
+                } catch (error) {
+                    this.currentInput = 'Error';
+                    this.updateDisplay();
+                    setTimeout(() => this.reset(), 1000);
+                }
+            }
+
+            clearDisplay() {
+                this.reset();
+                this.updateDisplay();
+            }
+
+            deleteLast() {
+                if (this.currentInput.length > 1) {
+                    this.currentInput = this.currentInput.slice(0, -1);
+                } else {
+                    this.currentInput = '0';
+                }
+                this.updateDisplay();
+            }
+
+            reset() {
+                this.currentInput = '0';
+                this.operator = null;
+                this.previousInput = null;
+                this.waitingForOperand = false;
+            }
+
+            setupKeyboardListeners() {
+                document.addEventListener('keydown', (e) => {
+                    e.preventDefault();
+                    
+                    if (e.key >= '0' && e.key <= '9' || e.key === '.') {
+                        this.insertNumber(e.key);
+                    } else if (['+', '-', '*', '/'].includes(e.key)) {
+                        this.insertOperator(e.key);
+                    } else if (e.key === 'Enter' || e.key === '=') {
+                        this.calculateResult();
+                    } else if (e.key === 'Escape' || e.key === 'c' || e.key === 'C') {
+                        this.clearDisplay();
+                    } else if (e.key === 'Backspace') {
+                        this.deleteLast();
+                    }
+                });
+            }
+        }
+
+        const calculator = new AbicusCalculator();
+
+        function insertNumber(num) { calculator.insertNumber(num); }
+        function insertOperator(op) { 
+            const opMap = { '÷': '/', '×': '*' };
+            calculator.insertOperator(opMap[op] || op); 
+        }
+        function calculateResult() { calculator.calculateResult(); }
+        function scientificFunction(func) { calculator.scientificFunction(func); }
+        function clearDisplay() { calculator.clearDisplay(); }
+        function deleteLast() { calculator.deleteLast(); }
+    </script>
+</body>
+</html>

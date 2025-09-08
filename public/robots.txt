@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://abicus.com/sitemap.xml
+
+# Allow search engines to crawl all content
+# This is a public educational calculator website
+
+# Disallow crawling of development/test paths if any
+Disallow: /api/
+Disallow: /_next/
+Disallow: /manifest.json
+
+# Crawl delay (optional, be respectful to server resources)
+Crawl-delay: 1
