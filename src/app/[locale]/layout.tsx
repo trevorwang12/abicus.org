@@ -65,6 +65,11 @@ export default async function LocaleLayout({ children, params }: Props) {
           src="//pl27601418.revenuecpmgate.com/14a1101a1bad2ed5c4fca10d2ceba052/invoke.js"
           strategy="afterInteractive"
         />
+        <Script
+          type="text/javascript"
+          src="//pl27601498.revenuecpmgate.com/be/64/3d/be643dd4e4d78a2736b78e3593753dac.js"
+          strategy="afterInteractive"
+        />
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
