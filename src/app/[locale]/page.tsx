@@ -386,7 +386,7 @@ export default function Home() {
                   {t('why.quote.title')}
                 </h3>
                 <blockquote className="text-gray-700 italic mb-4">
-                  "{t('why.quote.text')}"
+                  &ldquo;{t('why.quote.text')}&rdquo;
                 </blockquote>
                 <p className="text-sm text-gray-600">
                   {t('why.quote.source')}
